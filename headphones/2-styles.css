@@ -3,11 +3,15 @@
     font-family: Source Sans Pro;
     text-decoration: none;
     list-style: none;
+    color: #fff;
 }
 body{
-        min-height: 100vh;
-        background: #fff;
-        color: #000;
+    min-height: 100vh;
+    background: url(./images/headphones_hero_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .navbar{
     width: 100%;
@@ -19,7 +23,6 @@ body{
     justify-content: space-between;
     align-items: center;   
     z-index: 1000; 
-    background: #FF6565;  
     text-transform: capitalize;          
 }
 .main{
@@ -42,11 +45,11 @@ header a{
     border-bottom: solid transparent 2.8px;
     transition: .4 ease;
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 header a:hover{
-    border-bottom: solid #7d0202 2.8px;
-    color: #f5f3f3;
+    border-bottom: solid #FF6565  2.8px;
+    color: #FF6565 ;
 }
 
 .new_section{
@@ -62,7 +65,7 @@ header a:hover{
 section h2{
     font-size: 4.6vmin;
     font-weight: bold;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 section p{
     font-size: 2vmin;
@@ -72,7 +75,7 @@ section p{
 .contain{
     display: flex;
     flex-direction: row;
-    margin: 80px 20px;
+    margin: 60px 20px;
     padding: 10px;
     align-items: center;
 }
