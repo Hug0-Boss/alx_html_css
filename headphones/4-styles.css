@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background: url(./images/headphones_hero_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 20px 6%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    z-index: 999; 
+    text-transform: capitalize;             
+}
+
+header li{
+    list-style: none;
+    display: inline-flex;
+    padding: 0 15px;
+    font-size: 3.2vmin;
+    font-weight: 400px;
+}
+
+header a{
+    border-bottom: solid transparent 2.8px;
+    transition: .4 ease;
+    text-decoration: none;
+    color: #fff;
+}
+header a:hover{
+    border-bottom: solid #FF6565 2.8px;
+    color: #FF6565;
+}
+
+.main{
+    width: 100%;
+    height: calc(100vh - 100px);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle{
+    text-align: center;
+}
+
+main h3{
+    font-size: 4.6vmin;
+    font-weight: bold;
+}
+main p{
+    font-size: 2vmin;
+    font-weight: bold;
+}
+main
+.button{
+    text-align: center;
+    margin-top: 50px;
+    padding: 12px 20px;
+    display: block;
+    border-radius: 20px;
+    background-color: #FF6565;
+    width: fit-content;
+    position: relative;
+    left: 360px;
+}
+.button a{
+    color: #fff;
+}
+.text{
+    font-size: 2vmin;
+    font-weight: lighter;
+    margin-top: 180px;
+}
+
+section h2{
+    font-size: 4.6vmin;
+    font-weight: bold;
+}
+section p{
+    font-size: 2vmin;
+    font-weight: lighter;
+    margin-top: 80px;
+}
+.foot{
+    width: 100%;
+    bottom: 0;
+    padding: 20px 6%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    z-index: 1000; 
+    text-transform: capitalize; 
+    font-family: Source Sans Pro;
+    background: #071629;
+}
+footer img{
+    width: 16%;
+}
+footer ul li img{
+    width: 50%;
+}
+
+
+footer{
+    width: 100%;
+    position: absolute;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+footer p{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    font-weight: lighter;
+    color: #d0c7c7;
+}
+.hamburger{
+    display: none;
+}
