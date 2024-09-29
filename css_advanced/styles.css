@@ -1,9 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    font-family: 'Source Sans 3' sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 header{
     width: 100vw;
     height: 100vh;
@@ -15,11 +20,247 @@ header{
     justify-content: center;
 }
 .header-content {
-    margin-bottom: 150px;
+    margin-bottom: 400px;
     color: white;
     text-align: center;
 }
 .header-content h1{
-    font-size: 10vmin;
+    font-size: 12vmin;
+}
+.pro_one{
+    display: inline;
+    font-size: 2vmin;
+    margin:24px 24px 24px;
+}
+div a.btn{
+    position: absolute;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 54px 28px 30px;
+    margin-bottom: 0px;
+    padding: 8px 15px;
+    background: #C271FF;
+    border-radius: 30px;
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+div a.btn:hover{
+    transition: 1s ease-in-out;
+    color: blueviolet;
+}
+ul{
+    list-style: none;
+}
+.idea{
+    color: #C271FF;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.navbar{
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   padding: 20px;
+   color: white;
+   font-size: 12px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
     
+}
+.nav-links li{
+    margin: 0 30px;
+}
+
+.event{
+    height: 50vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 40px 70px;
+   margin-top: 30px;
+   background: #C271FF;
+}
+.event img{
+   height: 160px;
+}
+.pro{
+    font-size: 2.5vmin;
+    margin-left: 40px;  
+    color: white;  
+}
+.event h3{
+    margin: 10px 0px;
+}
+.event blockquote{
+    padding-bottom: 30px;
+}
+.tutorials_one{
+    height: 60vh;  
+    display: flex;
+    flex-direction: row;
+    font-size: 1.9vmin;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 0px 30px;
+}
+
+.diagonal{   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 25%;
+    padding: 8px;
+}
+
+h2{
+    font-size: 5vmin;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    word-spacing: 10%;
+}
+
+.main{
+    height: 144px;
+    width: 226px;
+    background: #fff;
+}
+.play{
+    position: absolute;
+    transform: translate(-240%, 80%);
+    height: 60px;
+    width: 60px;
+}
+.align{
+    width: 25%
+}
+.name_tag{
+    color: #C271FF;
+}
+.time{
+    color: #C271FF;
+}
+.star{
+    width: 15px;
+    height: 14px;
+}
+.color{
+    color: #C271FF;
+}
+.cover_member{
+    height: 60vh;
+    background: #071629;
+    color: white;
+}
+.membership{
+    padding: 0px 30px;
+    font-size: 2vmin;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.hi{
+    font-size: 5vmin;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 50px;
+}
+.membership img{
+    height: 35px;
+    width: 43px;
+}
+ .button{ 
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #C271FF;
+    padding: 10px;
+    border-radius: 30px; 
+    color: white;
+}
+.oone{
+    padding: 30px;
+    line-height: 1.5;
+}
+.faq{
+    height: 70vh;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 140px;
+    row-gap: 80px;
+    column-gap: 80px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+.faq h2{
+    font-size: 6vmin;
+}
+footer{
+    height: 25vh;
+    background: #071629;
+    color: white;
+}
+.footer{
+    margin: 80px 40px;
+}
+.footer p{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 1.5vmin;
+}
+
+.iconss li{
+    list-style: none;
+}
+
+/*Mobile device*/
+@media only screen and (max-width:850px){
+    .menu-btn{
+        display: block;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: #b155f7;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu{
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+    }
+    .nav-links li{
+        margin: 30px auto;
+    }
+  
 }
